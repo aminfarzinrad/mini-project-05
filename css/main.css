@@ -6,3 +6,8 @@
 body{
     font-family: sans-serif;
 }
+.container{
+    display: grid;
+    grid-template-rows: 80vh repeat(5, max-content) ;
+    grid-template-columns: repeat(6, 1fr);
+}
