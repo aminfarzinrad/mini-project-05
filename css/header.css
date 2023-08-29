@@ -6,7 +6,9 @@
     display: grid;
     grid-template-rows: repeat(3, min-content);
     grid-gap: 20px;
-    justify-content: center;
+    justify-content: start;
+    padding-left: 5rem;
+    padding-right: 5rem;
     align-content: center;
     text-align: center;
 }
@@ -35,4 +37,24 @@
 .btn:hover{
     background: white;
     color: orange;
+}
+@media screen and (max-width : 840px) {
+    .header{
+        padding: 0 0 0 2.5rem;
+    }
+}
+@media screen and (max-width : 400px) {
+    .header{
+        background-position-x: 11%;
+    }
+}
+@media screen and (max-width : 380px) {
+    .header{
+        padding: 0 0 0 0.75rem;
+    }
+}
+@media screen and (max-width : 340px) {
+    .header{
+        padding: 0;
+    }
 }
