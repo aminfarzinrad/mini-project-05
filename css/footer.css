@@ -49,3 +49,8 @@ li:hover{
 .youtube:hover{
     color: red;
 }
+@media screen and (max-width : 557px) {
+    .footer-section{
+        text-align: start;
+    }
+}
